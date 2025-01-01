@@ -2290,7 +2290,7 @@ if game.PlaceId == 286090429 then
     elseif game.PlaceId == 13772394625 then
         local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-            local Window = Library.CreateLib("Moo Hub - Blade Ball v1", "DarkTheme")
+            local Window = Library.CreateLib("Moo Hub - Blade Ball Beta", "DarkTheme")
 
             local ComTab = Window:NewTab("Combat")
 
