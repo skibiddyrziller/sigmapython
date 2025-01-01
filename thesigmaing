@@ -2290,7 +2290,7 @@ if game.PlaceId == 286090429 then
     elseif game.PlaceId == 13772394625 then
         local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-            local Window = Library.CreateLib("Moo Hub - Blade Ball Beta", "DarkTheme")
+            local Window = Library.CreateLib("Moo Hub - Blade Ball [Beta]", "DarkTheme")
 
             local ComTab = Window:NewTab("Combat")
 
@@ -2364,7 +2364,7 @@ if game.PlaceId == 286090429 then
                 end
             end)
 
-            comSection:NewButton("Spam Parry", "Spams Parry button (Press F To Enable And Disable)", function()
+            comSection:NewButton("Spam Parry [F] To Toggle", "Spams Parry button (Press F To Enable And Disable)", function()
                 local RunService = game:GetService("RunService")
                 local UserInputService = game:GetService("UserInputService")
                 local VirtualInputManager = game:GetService("VirtualInputManager")
