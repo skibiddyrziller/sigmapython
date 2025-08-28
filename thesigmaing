@@ -168,6 +168,10 @@ if game.PlaceId == 286090429 then
     end
     
     HitboxSection:NewButton("[CLICK THIS FIRST] Enable Silent Aim", '?', function()
+        
+    end)
+    
+    HitboxSection:NewToggle("Toggle Silent Aim On", '?', function(enabled)
         coroutine.wrap(function()
             while true do
                 if hitboxEnabled then
@@ -177,9 +181,6 @@ if game.PlaceId == 286090429 then
                 task.wait(0.1)
             end
         end)()
-    end)
-    
-    HitboxSection:NewToggle("Toggle Silent Aim On", '?', function(enabled)
         hitboxEnabled = enabled
         if not enabled then
             for _, player in ipairs(Players:GetPlayers()) do
