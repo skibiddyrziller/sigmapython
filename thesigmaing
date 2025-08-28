@@ -167,11 +167,8 @@ if game.PlaceId == 286090429 then
         onPlayerAdded(player)
     end
     
-    HitboxSection:NewButton("[CLICK THIS FIRST] Enable Silent Aim", '?', function()
-        
-    end)
     
-    HitboxSection:NewToggle("Toggle Silent Aim On", '?', function(enabled)
+    HitboxSection:NewToggle("Toggle HitBox Extender", '?', function(enabled)
         coroutine.wrap(function()
             while true do
                 if hitboxEnabled then
